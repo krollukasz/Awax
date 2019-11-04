@@ -1,0 +1,38 @@
+@import 'variables';
+@import 'mixins';
+@import 'normalize';
+@import 'layout';
+
+* {
+  box-sizing: border-box;
+  font-family: $font-montserrat;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: $color-light;
+}
+
+.container {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1200px;
+  text-align: center;
+
+  &--flex {
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+}
+
+@media (max-width: 992px) {
+  .container {
+    &--flex {
+      flex-flow: column;
+      justify-content: center;
+    }
+  }
+}
