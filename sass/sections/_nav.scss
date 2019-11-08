@@ -1,0 +1,49 @@
+nav {
+  margin: 0;
+  width: 100vw;
+  height: 80px;
+  background-color: $color-black;
+
+  .container {
+    padding: 0 9px;
+    display: flex;
+    justify-content: space-between;
+  
+    ul {
+      padding: 0;
+      list-style-type: none;
+
+      li {
+        display: inline-block;
+        border-bottom: 4px solid $color-black;
+
+        &:hover {
+          border-bottom: 4px solid $color-gold;
+        }
+
+        a {
+          padding: 0 10px;
+          display: inline-block;
+          font-size: $medium-font-size;
+          font-weight: 700;
+          line-height: 76px;
+          color: $color-white;
+          text-decoration: none;
+          text-transform: uppercase;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  nav {
+    height: auto;
+
+    ul {
+      li {
+        border-bottom: none;
+      }
+    }
+  }
+}

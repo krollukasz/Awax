@@ -534,6 +534,55 @@ template {
   }
 }
 
+nav {
+  margin: 0;
+  width: 100vw;
+  height: 80px;
+  background-color: #000000;
+}
+
+nav .container {
+  padding: 0 9px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+}
+
+nav .container ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+nav .container ul li {
+  display: inline-block;
+  border-bottom: 4px solid #000000;
+}
+
+nav .container ul li:hover {
+  border-bottom: 4px solid #b88b58;
+}
+
+nav .container ul li a {
+  padding: 0 10px;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 76px;
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+@media (max-width: 992px) {
+  nav {
+    height: auto;
+  }
+  nav ul li {
+    border-bottom: none;
+  }
+}
+
 * {
   box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
