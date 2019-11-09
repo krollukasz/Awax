@@ -583,6 +583,48 @@ nav .container ul li a {
   }
 }
 
+.jumbotron {
+  height: calc(100vh - 80px);
+  background-image: url(../images/background_home.jpg);
+  background-position: center;
+  background-size: cover;
+  font-weight: 700;
+  text-transform: uppercase;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-direction: column;
+      flex-direction: column;
+}
+
+.jumbotron__header {
+  margin-bottom: 20px;
+  font-size: 72px;
+  color: #ffffff;
+}
+
+.jumbotron__header--gold {
+  color: #b88b58;
+}
+
+.jumbotron__phone {
+  margin-top: 0;
+  font-size: 24px;
+  color: #ffffff;
+}
+
+@media (max-width: 992px) {
+  .jumbotron__header {
+    font-size: 30px;
+  }
+  .jumbotron__phone {
+    font-size: 14px;
+  }
+}
+
 * {
   box-sizing: border-box;
   font-family: "Montserrat", sans-serif;

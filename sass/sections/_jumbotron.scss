@@ -1,0 +1,40 @@
+.jumbotron {
+  height: calc(100vh - 80px);
+  background-image: url(../images/background_home.jpg);
+  background-position: center;
+  background-size: cover;
+  font-weight: 700;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+  &__header {
+    margin-bottom: 20px;
+    font-size: 72px;
+    color: $color-white;
+
+    &--gold {
+      color: $color-gold;
+    }
+  }
+
+  &__phone {
+    margin-top: 0;
+    font-size: $large-font-size;
+    color: $color-white;
+  }
+}
+
+@media (max-width: 992px) {
+  .jumbotron {
+    &__header {
+      font-size: $extra-lagre-font-size;
+    }
+
+    &__phone {
+      font-size: $medium-font-size;
+    }
+  }
+}
