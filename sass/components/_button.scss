@@ -1,0 +1,19 @@
+.button {
+  margin: 30px 20px;
+  min-width: 194px;
+  height: 45px;
+  background-color: $color-gold;
+  color: $color-white;
+  font-size: $small-font-size;
+  font-weight: 700;
+  border: none;
+  border-radius: 20px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: .3s;
+  outline: none;
+
+  &:hover {
+    background: $color-black;
+  }
+}

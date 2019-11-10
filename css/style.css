@@ -625,6 +625,26 @@ nav .container ul li a {
   }
 }
 
+.button {
+  margin: 30px 20px;
+  min-width: 194px;
+  height: 45px;
+  background-color: #b88b58;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 700;
+  border: none;
+  border-radius: 20px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: .3s;
+  outline: none;
+}
+
+.button:hover {
+  background: #000000;
+}
+
 * {
   box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
