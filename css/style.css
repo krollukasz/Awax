@@ -598,6 +598,7 @@ nav .container ul li a {
       align-items: center;
   -ms-flex-direction: column;
       flex-direction: column;
+  position: relative;
 }
 
 .jumbotron__header {
@@ -614,6 +615,33 @@ nav .container ul li a {
   margin-top: 0;
   font-size: 24px;
   color: #ffffff;
+}
+
+.jumbotron .pagination {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+      flex-direction: row;
+  -ms-flex-pack: center;
+      justify-content: center;
+  position: absolute;
+  bottom: 40px;
+}
+
+.jumbotron .pagination .dot {
+  margin: 5px;
+  width: 14px;
+  height: 14px;
+  border: 2px solid #b88b58;
+  border-radius: 50%;
+}
+
+.jumbotron .pagination .dot:hover {
+  cursor: pointer;
+}
+
+.jumbotron .pagination .dot__active {
+  background-color: #b88b58;
 }
 
 @media (max-width: 992px) {
