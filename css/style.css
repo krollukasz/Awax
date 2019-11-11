@@ -536,7 +536,7 @@ template {
 
 nav {
   margin: 0;
-  width: 100vw;
+  width: 100%;
   height: 80px;
   background-color: #000000;
 }
@@ -723,11 +723,11 @@ nav .container ul li a {
   height: auto;
 }
 
-.section__image--video {
+.section .video {
   box-shadow: 0px 13px 12px rgba(0, 0, 1, 0.42);
 }
 
-.section__image:hover {
+.section .video:hover {
   cursor: pointer;
 }
 
