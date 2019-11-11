@@ -1,6 +1,14 @@
 .section {
   padding: 40px 40px 50px;
 
+  &--black {
+    background-color: $color-black;
+  }
+
+  &--white {
+    background-color: $color-white;
+  }
+
   &__header {
     margin-bottom: 10px;
     font-size: $extra-lagre-font-size;
@@ -13,6 +21,11 @@
 
     &--white {
       color: $color-white;
+    }
+
+    &--normal {
+      margin: 25px 25px 0;
+      font-size: $normal-font-size;
     }
   }
 
@@ -41,7 +54,7 @@
   &__paragraph {
     font-size: $medium-font-size;
     font-weight: 300;
-    color: #242424;
+    color: $color-dark-grey;
 
     &--black {
       color: $color-black;
@@ -51,6 +64,18 @@
       margin: 0 30px;
       text-align: left;
       line-height: 25px;
+    }
+  }
+
+  &__tab {
+    padding: 10px 20px;
+
+    &--line {
+      border-left: 1px solid $color-dark-grey;
+
+      &:last-child {
+        border-right: 1px solid $color-dark-grey;
+      }
     }
   }
 
@@ -72,6 +97,16 @@
 
     &__paragraph--left {
       text-align: center;
+    }
+
+    &__tab {
+      padding: 20px;
+      border-left: none;
+      border-bottom: 1px solid $color-dark-grey;
+
+      &:last-child {
+        border: none;
+      }
     }
   }
 }

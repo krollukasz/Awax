@@ -692,6 +692,14 @@ nav .container ul li a {
   padding: 40px 40px 50px;
 }
 
+.section--black {
+  background-color: #000000;
+}
+
+.section--white {
+  background-color: #ffffff;
+}
+
 .section__header {
   margin-bottom: 10px;
   font-size: 30px;
@@ -705,6 +713,11 @@ nav .container ul li a {
 
 .section__header--white {
   color: #ffffff;
+}
+
+.section__header--normal {
+  margin: 25px 25px 0;
+  font-size: 18px;
 }
 
 .section__header--paragraph {
@@ -739,7 +752,7 @@ nav .container ul li a {
 .section__paragraph {
   font-size: 14px;
   font-weight: 300;
-  color: #242424;
+  color: #bebebe;
 }
 
 .section__paragraph--black {
@@ -750,6 +763,18 @@ nav .container ul li a {
   margin: 0 30px;
   text-align: left;
   line-height: 25px;
+}
+
+.section__tab {
+  padding: 10px 20px;
+}
+
+.section__tab--line {
+  border-left: 1px solid #bebebe;
+}
+
+.section__tab--line:last-child {
+  border-right: 1px solid #bebebe;
 }
 
 .section__image {
@@ -770,6 +795,14 @@ nav .container ul li a {
   }
   .section__paragraph--left {
     text-align: center;
+  }
+  .section__tab {
+    padding: 20px;
+    border-left: none;
+    border-bottom: 1px solid #bebebe;
+  }
+  .section__tab:last-child {
+    border: none;
   }
 }
 
