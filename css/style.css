@@ -583,6 +583,41 @@ nav .container ul li a {
   }
 }
 
+.about {
+  position: relative;
+}
+
+.about .callback {
+  padding: 10px;
+  width: 64px;
+  height: 64px;
+  background-color: #b88b58;
+  border-radius: 50%;
+  transition: .3s;
+  position: absolute;
+  top: -33px;
+  right: 90px;
+}
+
+.about .callback:hover {
+  background-color: #000000;
+  cursor: pointer;
+}
+
+.about .video {
+  box-shadow: 0px 13px 12px rgba(0, 0, 1, 0.42);
+}
+
+.about .video:hover {
+  cursor: pointer;
+}
+
+@media (max-width: 992px) {
+  .about .callback {
+    right: 20px;
+  }
+}
+
 .jumbotron {
   height: calc(100vh - 80px);
   background-image: url(../images/background_home.jpg);
@@ -723,14 +758,6 @@ nav .container ul li a {
   height: auto;
 }
 
-.section .video {
-  box-shadow: 0px 13px 12px rgba(0, 0, 1, 0.42);
-}
-
-.section .video:hover {
-  cursor: pointer;
-}
-
 @media (max-width: 992px) {
   .section {
     padding: 20px 10px;
@@ -747,7 +774,7 @@ nav .container ul li a {
 }
 
 .button {
-  margin: 30px 20px;
+  margin: 30px;
   min-width: 194px;
   height: 45px;
   background-color: #b88b58;
