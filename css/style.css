@@ -893,6 +893,61 @@ nav .container ul li a {
   background: #000000;
 }
 
+.menu-rounded {
+  margin-bottom: 25px;
+  background-color: #ededed;
+  font-size: 14px;
+  font-weight: 300;
+  color: #000000;
+  text-transform: uppercase;
+  border: 1px solid #bebebe;
+  border-radius: 30px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+}
+
+.menu-rounded__item {
+  margin: 0;
+  padding: 0 30px;
+  line-height: 45px;
+  display: inline-block;
+  border-left: 1px solid #bebebe;
+  border-bottom: 3px solid #ededed;
+}
+
+.menu-rounded__item:last-child {
+  padding: 0 20px 0 25px;
+}
+
+.menu-rounded__item--first {
+  padding: 0 25px 0 20px;
+  border-left: none;
+}
+
+.menu-rounded__item:hover {
+  border-bottom: 3px solid #b88b58;
+  cursor: pointer;
+}
+
+@media (max-width: 992px) {
+  .menu-rounded {
+    height: auto;
+    display: block;
+    text-align: center;
+    border-bottom: none;
+    border-radius: 0;
+  }
+  .menu-rounded__item {
+    display: block;
+    border-left: none;
+    border-bottom: 3px solid #bebebe;
+  }
+}
+
 * {
   box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
