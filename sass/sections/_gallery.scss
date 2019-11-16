@@ -1,0 +1,58 @@
+.gallery {
+
+  &__row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__photo {
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    position: relative;
+  }
+
+  &__photo--layer {
+    width: calc(100% - 30px);
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 15px;
+    right: 0;
+    bottom: 15px;
+    left: 15px;
+    opacity: 0;
+    transition: all .4s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &-header {
+      font-size: $normal-font-size;
+      font-weight: 600;
+      color: $color-white;
+      text-transform: uppercase;
+    }
+
+    &-paragraph {
+      padding: 0 20px;
+      font-size: $small-font-size;
+      font-weight: 400;
+      color: $color-white;
+    }
+  }
+
+  &__photo--layer:hover {
+    background-color: $color-black;
+    opacity: 0.7;
+    display: flex;
+    cursor: pointer;
+  }
+
+  &__image {
+    width: 100%;
+    height: auto;
+  }
+}
