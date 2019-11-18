@@ -960,6 +960,32 @@ nav .container ul li a {
   }
 }
 
+section .pagination {
+  margin-top: 40px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+      flex-direction: row;
+  -ms-flex-pack: center;
+      justify-content: center;
+}
+
+section .pagination .dot {
+  margin: 5px;
+  width: 14px;
+  height: 14px;
+  border: 2px solid #b88b58;
+  border-radius: 50%;
+}
+
+section .pagination .dot:hover {
+  cursor: pointer;
+}
+
+section .pagination .dot__active {
+  background-color: #b88b58;
+}
+
 .social__media {
   margin: 45px 5px 15px;
   display: -ms-flexbox;

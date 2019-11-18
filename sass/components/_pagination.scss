@@ -1,0 +1,25 @@
+section {
+
+  .pagination {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+    .dot {
+      margin: 5px;
+      width: 14px;;
+      height: 14px;
+      border: 2px solid $color-gold;
+      border-radius: 50%;
+      
+      &:hover {
+        cursor: pointer;
+      }
+      
+      &__active {
+        background-color: $color-gold;
+      }
+    }
+  }
+}
