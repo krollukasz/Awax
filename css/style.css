@@ -844,6 +844,12 @@ nav .container ul li a {
   border-right: 1px solid #bebebe;
 }
 
+.section__tab--member {
+  padding: 45px 20px 20px;
+  background-color: #ffffff;
+  border-radius: 4px;
+}
+
 .section__image {
   display: block;
   width: 100%;
@@ -871,6 +877,12 @@ nav .container ul li a {
   .section__tab:last-child {
     border: none;
   }
+}
+
+.section--team {
+  background-image: url(../images/background_team.png);
+  background-position: center;
+  background-size: cover;
 }
 
 .button {

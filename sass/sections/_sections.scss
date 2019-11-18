@@ -77,6 +77,12 @@
         border-right: 1px solid $color-dark-grey;
       }
     }
+
+    &--member {
+      padding: 45px 20px 20px;
+      background-color: $color-white;
+      border-radius: 4px;
+    }
   }
 
   &__image {
