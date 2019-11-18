@@ -960,6 +960,37 @@ nav .container ul li a {
   }
 }
 
+.social__media {
+  margin: 45px 5px 15px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.social__media .active {
+  background-color: #b88b58;
+}
+
+.social__media--item {
+  margin: 5px;
+  padding: 8px;
+  width: 33px;
+  height: 33px;
+  background-color: #bebebe;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.social__media--item:hover {
+  background-color: #b88b58;
+}
+
 * {
   box-sizing: border-box;
   font-family: "Montserrat", sans-serif;

@@ -1,0 +1,26 @@
+.social__media {
+  margin: 45px 5px 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+  .active {
+    background-color: $color-gold;
+  }
+
+  &--item {
+    margin: 5px;
+    padding: 8px;
+    width: 33px;
+    height: 33px;
+    background-color: $color-dark-grey;
+    color: $color-white;
+    text-decoration: none;
+    border-radius: 50%;
+
+    &:hover {
+      background-color: $color-gold;
+    }
+  }
+}
