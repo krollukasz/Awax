@@ -826,6 +826,14 @@ nav .container ul li a {
   color: #000000;
 }
 
+.section__paragraph--dark {
+  color: #7e7e7e;
+}
+
+.section__paragraph--margin-bottom {
+  margin-bottom: 30px;
+}
+
 .section__paragraph--left {
   margin: 0 30px;
   text-align: left;

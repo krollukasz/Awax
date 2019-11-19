@@ -60,6 +60,14 @@
       color: $color-black;
     }
 
+    &--dark {
+      color: #7e7e7e;
+    }
+
+    &--margin-bottom {
+      margin-bottom: 30px;
+    }
+
     &--left {
       margin: 0 30px;
       text-align: left;
