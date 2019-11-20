@@ -9,6 +9,11 @@
     background-color: $color-white;
   }
 
+  &--border {
+    border-top: 1px solid #cfcfcf;
+    border-bottom: 1px solid #cfcfcf;
+  }
+
   &__header {
     margin-bottom: 10px;
     font-size: $extra-lagre-font-size;
@@ -48,6 +53,11 @@
       display: flex;
       justify-content: flex-start;
       align-items: flex-start;
+    }
+
+    &--stretch {
+      padding: 10px 0;
+      justify-content: space-between;
     }
   }
 

@@ -767,6 +767,11 @@ nav .container ul li a {
   background-color: #ffffff;
 }
 
+.section--border {
+  border-top: 1px solid #cfcfcf;
+  border-bottom: 1px solid #cfcfcf;
+}
+
 .section__header {
   margin-bottom: 10px;
   font-size: 30px;
@@ -814,6 +819,12 @@ nav .container ul li a {
       justify-content: flex-start;
   -ms-flex-align: start;
       align-items: flex-start;
+}
+
+.section__content--stretch {
+  padding: 10px 0;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
 }
 
 .section__paragraph {
