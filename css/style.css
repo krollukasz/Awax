@@ -972,6 +972,42 @@ nav .container ul li a {
   background: #000000;
 }
 
+.button__small {
+  margin: 20px;
+  min-width: 140px;
+  height: 40px;
+  background-color: #000000;
+  font-size: 12px;
+  font-weight: 700;
+  color: #ffffff;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: .3s;
+  outline: none;
+}
+
+.button__small--gold {
+  margin: 20px;
+  min-width: 140px;
+  height: 40px;
+  background-color: #b88b58;
+  font-size: 12px;
+  font-weight: 700;
+  color: #ffffff;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: .3s;
+  outline: none;
+}
+
+.button__small:hover {
+  background-color: #b88b58;
+}
+
 .menu-rounded {
   margin-bottom: 25px;
   background-color: #ededed;

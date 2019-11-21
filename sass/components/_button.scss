@@ -16,4 +16,40 @@
   &:hover {
     background: $color-black;
   }
+
+  &__small {
+    margin: 20px;
+    min-width: 140px;
+    height: 40px;
+    background-color: $color-black;
+    font-size: $small-font-size;
+    font-weight: 700;
+    color: $color-white;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: .3s;
+    outline: none;
+
+    &--gold {
+      margin: 20px;
+      min-width: 140px;
+      height: 40px;
+      background-color: $color-gold;
+      font-size: $small-font-size;
+      font-weight: 700;
+      color: $color-white;
+      text-transform: uppercase;
+      border: none;
+      border-radius: 20px;
+      cursor: pointer;
+      transition: .3s;
+      outline: none;
+    }
+
+    &:hover {
+      background-color: $color-gold;
+    }
+  }
 }
