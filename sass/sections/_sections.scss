@@ -9,6 +9,10 @@
     background-color: $color-white;
   }
 
+  &--grey {
+    background-color: $color-light-grey;
+  }
+
   &--border {
     border-top: 1px solid #cfcfcf;
     border-bottom: 1px solid #cfcfcf;
@@ -83,10 +87,48 @@
       text-align: left;
       line-height: 25px;
     }
+
+    &--description {
+      margin-bottom: 12px;
+      font-size: $small-font-size;
+      font-weight: 400;
+      color: #7e7e7e;
+
+      &::after {
+        margin: 8px auto;
+        width: 12px;
+        height: 1px;
+        content: "";
+        background-color: #7e7e7e;
+        display: block;
+      }
+    }
+
+    &--medium {
+      margin: 0;
+      font-size: $medium-font-size;
+      color: $color-black;
+      text-transform: uppercase;
+    }
+
+    &--small {
+      margin: 0 0 24px;
+      font-size: $small-font-size;
+      color: #aeaeae;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+
+    &--price {
+      margin: 15px 0 5px;
+      font-size: $extra-lagre-font-size;
+      font-weight: 700;
+      color: $color-black;
+    }
   }
 
   &__tab {
-    padding: 10px 20px;
+    padding: 15px;
 
     &--line {
       border-left: 1px solid $color-dark-grey;
@@ -94,6 +136,12 @@
       &:last-child {
         border-right: 1px solid $color-dark-grey;
       }
+    }
+
+    &--margin {
+      padding: 35px 15px 20px;
+      background-color: $color-white;
+      border-radius: 6px;
     }
 
     &--member {
