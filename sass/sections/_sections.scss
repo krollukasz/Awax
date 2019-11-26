@@ -53,6 +53,10 @@
     align-items: center;
     flex-wrap: wrap;
 
+    &--border-bottom {
+      border-bottom: 1px solid $color-dark-grey;
+    }
+
     &--left {
       display: flex;
       justify-content: flex-start;
@@ -162,6 +166,10 @@
   .section {
     padding: 20px 10px;
 
+    &__header {
+      font-size: $large-font-size;
+    }
+
     &__content--left {
       display: flex;
       justify-content: center;
@@ -172,7 +180,7 @@
     }
 
     &__tab {
-      padding: 20px;
+      padding: 20px 8px;
       border-left: none;
       border-bottom: 1px solid $color-dark-grey;
 
