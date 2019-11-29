@@ -849,6 +849,26 @@ nav .container ul li a {
   color: #7e7e7e;
 }
 
+.section__paragraph--gold {
+  margin-top: 15px;
+  font-size: 48px;
+  font-weight: 700;
+  color: #b88b58;
+}
+
+.section__paragraph--gold::after {
+  margin: 8px auto;
+  width: 22px;
+  height: 4px;
+  content: "";
+  background-color: #7e7e7e;
+  display: block;
+}
+
+.section__paragraph--numbers {
+  margin: 8px 0 0;
+}
+
 .section__paragraph--margin-bottom {
   margin-bottom: 30px;
 }
