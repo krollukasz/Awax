@@ -23,4 +23,48 @@
       background-color: $color-gold;
     }
   }
+
+  &--no-margin {
+    margin: 0 35px 0 3px;
+  }
+
+  &--twitter {
+    background-color: $color-twitter;
+
+    &:hover {
+      background-color: $color-black;
+    }
+  }
+
+  &--linkedIn {
+    background-color: $color-linkedIn;
+
+    &:hover {
+      background-color: $color-black;
+    }
+  }
+
+  &--facebook {
+    background-color: $color-facebook;
+
+    &:hover {
+      background-color: $color-black;
+    }
+  }
+
+  &--google {
+    background-color: $color-google;
+
+    &:hover {
+      background-color: $color-black;
+    }
+  }
+
+  &--pinterest {
+    background-color: $color-pinterest;
+
+    &:hover {
+      background-color: $color-black;
+    }
+  }
 }

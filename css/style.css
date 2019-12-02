@@ -895,6 +895,13 @@ nav .container ul li a {
   display: block;
 }
 
+.section__paragraph--tell {
+  margin: 0 16px;
+  font-weight: 600;
+  color: #aeaeae;
+  text-transform: uppercase;
+}
+
 .section__paragraph--medium {
   margin: 0;
   font-size: 14px;
@@ -1145,6 +1152,50 @@ section .pagination .dot__active {
 
 .social__media--item:hover {
   background-color: #b88b58;
+}
+
+.social__media--no-margin {
+  margin: 0 35px 0 3px;
+}
+
+.social__media--twitter {
+  background-color: #00aced;
+}
+
+.social__media--twitter:hover {
+  background-color: #000000;
+}
+
+.social__media--linkedIn {
+  background-color: #117bb3;
+}
+
+.social__media--linkedIn:hover {
+  background-color: #000000;
+}
+
+.social__media--facebook {
+  background-color: #3b5998;
+}
+
+.social__media--facebook:hover {
+  background-color: #000000;
+}
+
+.social__media--google {
+  background-color: #da2713;
+}
+
+.social__media--google:hover {
+  background-color: #000000;
+}
+
+.social__media--pinterest {
+  background-color: #cb2028;
+}
+
+.social__media--pinterest:hover {
+  background-color: #000000;
 }
 
 .table {
