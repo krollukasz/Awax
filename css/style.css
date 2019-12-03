@@ -873,6 +873,11 @@ nav .container ul li a {
   margin: 8px 0 0;
 }
 
+.section__paragraph--margin-left {
+  margin-left: 10px;
+  text-align: left;
+}
+
 .section__paragraph--margin-bottom {
   margin-bottom: 30px;
 }
@@ -956,6 +961,12 @@ nav .container ul li a {
   display: block;
   width: 100%;
   height: auto;
+}
+
+.section__map {
+  background-image: url(../images/map.png);
+  background-position: center;
+  background-size: cover;
 }
 
 @media (max-width: 992px) {
