@@ -833,6 +833,13 @@ nav .container ul li a {
       align-items: flex-start;
 }
 
+.section__content--top {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: start;
+      align-items: flex-start;
+}
+
 .section__content--stretch {
   padding: 10px 0;
   -ms-flex-pack: justify;
@@ -886,6 +893,12 @@ nav .container ul li a {
   margin: 0 30px;
   text-align: left;
   line-height: 25px;
+}
+
+.section__paragraph--footer {
+  margin-top: 0;
+  text-align: left;
+  line-height: 20px;
 }
 
 .section__paragraph--description {
@@ -943,6 +956,13 @@ nav .container ul li a {
 
 .section__tab--line:last-child {
   border-right: 1px solid #bebebe;
+}
+
+.section__tab--dark {
+  margin-top: 18px;
+  padding: 35px 30px 0;
+  background-color: #373737;
+  border-radius: 5px;
 }
 
 .section__tab--margin {
@@ -1081,6 +1101,11 @@ nav .container ul li a {
   outline: none;
 }
 
+.form__input--footer {
+  background-color: #373737;
+  border-bottom: 2px solid #bebebe;
+}
+
 .form__input:-ms-input-placeholder {
   color: #bebebe;
   text-transform: uppercase;
@@ -1201,6 +1226,10 @@ section .pagination .dot__active {
 
 .social__media--item:hover {
   background-color: #b88b58;
+}
+
+.social__media--dark {
+  background-color: #373737;
 }
 
 .social__media--no-margin {

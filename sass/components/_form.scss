@@ -19,6 +19,11 @@
     border-bottom: 1px solid $color-dark-grey;
     outline: none;
 
+    &--footer {
+      background-color: #373737;
+      border-bottom: 2px solid $color-dark-grey;
+    }
+
     &::placeholder {
       color: $color-dark-grey;
       text-transform: uppercase;
