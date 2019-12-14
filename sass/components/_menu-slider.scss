@@ -17,7 +17,25 @@
     line-height: 45px;
     display: inline-block;
     border-left: 1px solid $color-dark-grey;
-    border-bottom: 3px solid $color-light-grey;
+    vertical-align: middle;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    transform: perspective(1px) translateZ(0);
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+
+    &:before {
+      content: "";
+      height: 4px;
+      background-color: $color-gold;
+      position: absolute;
+      left: 51%;
+      right: 51%;
+      bottom: 0;
+      transition-property: left, right;
+      transition-duration: .3s;
+      transition-timing-function: ease-out;
+    }
 
     &:last-child {
       padding: 0 20px 0 25px;
@@ -28,9 +46,9 @@
       border-left: none;
     }
 
-    &:hover {
-      border-bottom: 3px solid $color-gold;
-      cursor: pointer;
+    &:hover:before {
+      left: 0;
+      right: 0;
     }
   }
 }
