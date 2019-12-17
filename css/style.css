@@ -1095,6 +1095,46 @@ nav .container ul li a {
   background-color: #b88b58;
 }
 
+.button__goToTop {
+  padding: 10px;
+  width: 64px;
+  height: 64px;
+  background-color: #b88b58;
+  font-size: 18px;
+  border-radius: 50%;
+  transition: .3s;
+  position: fixed;
+  right: 90px;
+  bottom: 30px;
+  border: none;
+  outline: none;
+  display: none;
+  z-index: 99;
+}
+
+.button__goToTop .fa-arrow-up {
+  color: #ffffff;
+  font-size: xx-large;
+}
+
+.button__goToTop:hover {
+  background-color: #000000;
+  cursor: pointer;
+}
+
+@media (max-width: 992px) {
+  .button__goToTop {
+    padding: 8px;
+    width: 35px;
+    height: 35px;
+    right: 15px;
+    bottom: 15px;
+  }
+  .button__goToTop .fa-arrow-up {
+    font-size: larger;
+  }
+}
+
 .form__row {
   padding: 12px;
   display: -ms-flexbox;

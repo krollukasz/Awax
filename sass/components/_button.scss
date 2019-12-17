@@ -52,4 +52,47 @@
       background-color: $color-gold;
     }
   }
+
+  &__goToTop {
+    padding: 10px;
+    width: 64px;
+    height: 64px;
+    background-color: $color-gold;
+    font-size: 18px;
+    border-radius: 50%;
+    transition: .3s;
+    position: fixed;
+    right: 90px;
+    bottom: 30px;
+    border: none;
+    outline: none;
+    display: none;
+    z-index: 99;
+
+    .fa-arrow-up {
+      color: $color-white;
+      font-size: xx-large;
+    }
+
+    &:hover {
+      background-color: $color-black;
+      cursor: pointer;
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  .button {
+    &__goToTop {
+      padding: 8px;
+      width: 35px;
+      height: 35px;
+      right: 15px;
+      bottom: 15px;
+
+      .fa-arrow-up {
+        font-size: larger;
+      }
+    }
+  }
 }
