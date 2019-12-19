@@ -17,3 +17,13 @@ function scrollFunction() {
 function topFunction() {
   $("html, body").animate({scrollTop:0}, "slow");
 };
+
+// Mobile menu
+const hamburger = document.querySelector(".hamburger");
+const navigationList = document.querySelector(".navigation__list");
+const handleClick = () => {
+  hamburger.classList.toggle("hamburger--active");
+  navigationList.classList.toggle("navigation__list--active");
+}
+
+hamburger.addEventListener("click", handleClick);

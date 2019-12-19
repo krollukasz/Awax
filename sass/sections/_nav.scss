@@ -58,10 +58,17 @@ nav {
   nav {
     height: auto;
 
-    ul {
-      li {
-        border-bottom: none;
+      ul {
+        display: none;
+        
+        li {
+          border-bottom: none;
+          
+          a {
+            line-height: 50px;
+          }
+        }
       }
-    }
+
   }
 }
